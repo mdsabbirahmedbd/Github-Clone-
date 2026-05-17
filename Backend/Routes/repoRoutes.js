@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const repoController = require("../Controllers/repoController");
+const repoController = require("../controllers/repoController");
 const authMiddleware = require("../middleware/auth");
 
 router.get("/",authMiddleware, repoController.getAllRepositoris);
