@@ -7,7 +7,7 @@
     "mygit": "./index.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
