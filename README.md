@@ -250,5 +250,7 @@ Authentication → URL Configuration →
 
 ## 👨‍💻 Author
 **Sabbir Ahmed**
-[![LinkedIn](https://www.linkedin.com/in/sabbirahmed-dev/)
-[![GitHub](https://github.com/mdsabbirahmedbd)
+```
+Eamil : sabbirahmed.info33@gmail.com
+
+````
