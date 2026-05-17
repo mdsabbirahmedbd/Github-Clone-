@@ -25,6 +25,10 @@ app.use("/api", allRoutes);
 //  MongoDB connect function
 const connectDB = require("./config/Mongodb");
 
+app.get("/", (req, res) => {
+  res.send("GitHub Clone API Running 🚀");
+});
+
 app.listen(port, async () => {
   console.log(`Server running on port ${port}`);
   await connectDB();
