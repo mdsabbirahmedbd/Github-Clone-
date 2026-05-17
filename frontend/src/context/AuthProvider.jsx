@@ -90,7 +90,9 @@ const AuthProvider = ({ children }) => {
 
 
   const loginWithGoogle = () =>
-    supabase.auth.signInWithOAuth({ provider: "google" });
+    supabase.auth.signInWithOAuth({ provider: "google",options: {
+    redirectTo: "https://githubclonedev.netlify.app"
+  } });
 
   const signUp = (email, password) =>
     supabase.auth.signUp({ email, password });
